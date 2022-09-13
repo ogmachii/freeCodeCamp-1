@@ -1,0 +1,47 @@
+body{
+  width: 50%;
+  height: 100vh;
+  margin: auto; 
+  padding: 20px; 
+}
+h1{
+  font-family: Monaco;
+  letter-spacing: 5px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+h1, p{
+   max-width: 500px;
+  text-align: center;
+}
+fieldset{
+  max-width: 500px;
+}
+#number{
+  width: 101px;
+}
+#p-fieldset{
+  font-size: 1.2em;
+  text-align: left;
+  margin: 10px 0px 5px;
+}
+label{
+  display: block;
+  font-family: Georgia;
+  }
+input{
+  margin: 10px;
+}
+textarea{
+  width:100%
+}
+.checkbox{
+  display: inline;
+  width: unset;
+  margin: 0 0.5em 0 0;
+}
+#submit{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

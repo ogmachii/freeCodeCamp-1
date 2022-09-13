@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,intitial-scale-1.0" />
+    <link href="styles1.css" rel="stylesheet"/>
+    <title>Cat Registration Form</title>
+  </head>
+  <body>
+    <h1 id="title">The Kitty Registration Form</h1>
+    <p id="description">A simple form to register your cat online!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="email-label">Email of owner: <input type="email" id="email" placeholder="Enter an email" required/></label>
+        <hr>
+        <label id="name-label">Name of cat:  <input type="text" id="name" placeholder="Enter a name" required/></label>
+        <label id="number-label">Age of cat (years): <input type="number" id="number"/ min="0" max="40" placeholder="Enter an age" required/></label>
+        <label id="select-label">Species: <select id="dropdown" required>
+            <option>Not listed</option>
+            <option>Siamese</option>
+            <option>Persian</option>
+            <option>Maine Coon</option>
+            <option>Ragdoll</option>
+            <option>Bengal</option>
+            <option>Abyssinian</option>
+            <option>Birman</option>
+            <option>Oriental Shorthair</option>
+            <option>Sphynx</option>
+            <option>Devon Rex</option>
+            <option>Himalayan</option>
+            <option>American Shorthair</option>
+          </select>
+        </label>
+        <hr>
+        <p id="p-fieldset">How long have you owned your cat?</p>
+        <label>Less than a year
+          <input type="radio" name="simple-radio" value="less-than-year" required/>  
+        </label>
+          <label>More than a year 
+            <input type="radio" name="simple-radio" value="more-than-year"/>
+          </label>
+          <label id="textarea-label">What is your cat like?
+            <textarea rows="2" cols="25" placeholder="Be honest..." required></textarea>
+          </label>   
+          <p id="p-fieldset">I would consider my cat to be...</p>
+            <input type="checkbox" class="checkbox" value="funny"/><label class="checkbox">Funny</label>
+            <input type="checkbox" class="checkbox" value="happy"/><label class="checkbox">Happy</label>
+            <input type="checkbox" class="checkbox" value="scared"/><label class="checkbox">Scared</label>
+            <input type="checkbox" class="checkbox" value="annoying"/><label class="checkbox">Annoying</label>
+          <hr>
+          <input type="submit" id="submit"/>
+      </fieldset>
+    </form>
+  </body>
+</html>
